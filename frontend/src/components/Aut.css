@@ -1,0 +1,87 @@
+.aut-page{
+    background-image: url('bg.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.job-list{
+    position:relative;
+    padding: 2rem;
+    color:white;
+    border-radius: 8px;
+    max-width: 60%; /* Adjusted to take up more space */
+    margin: 0 auto; /* Center content horizontally */
+    text-align: left;
+    margin-left:5%;
+    margin-top: 180px;
+
+}
+.job-list h2{
+color:rgb(212, 137, 231);margin-bottom: 2rem;
+}
+.job-item h3{color:rgb(227, 207, 245);margin-top:2rem;margin-bottom:1rem;}
+
+.lu {
+    color: white;
+    border: 2px solid rgb(221, 181, 233);
+    border-radius: 100px;
+    margin-right:2rem;
+    cursor: pointer;width:180px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;margin-top:4rem;margin-left:2rem;
+  }
+  
+  .lu :hover{
+    background-color: #c1a2f5;
+    color :rgb(14, 13, 13);
+  }
+  .n-group {
+    display: flex;
+    flex-direction: row; /* Align buttons in a row */
+    justify-content: flex-end; /* Align buttons to the right side of the container */
+    position: absolute;
+    top: 130px; /* Adjust based on where you want it vertically */
+    right: 5%; /* Space from the right edge */
+    max-width: 40%; /* Restrict max width to 30% */
+    padding: 1rem; /* Add padding for spacing */
+}
+
+.n-group a {
+    margin-left: 10px; /* Space between buttons */
+}
+
+.sch-button{color:rgb(7, 16, 20);
+    background-color: #b7d0f1;
+    ;margin-left:12rem;
+    margin-top: 20px; /* Larger value for more space */
+    display: inline-block;
+    padding:4px 50px; font-weight: bold;
+    border-radius:100px;
+margin-bottom:3rem;
+text-decoration: none; /* Ensure link styles are removed */
+    transition: background-color 0.3s ease;}
+.sch-button:hover {
+        background-color: #c1a2f5;
+        color: rgb(14, 13, 13);
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        color: rgb(104, 101, 101);
+        text-align: right;
+        
+    }
+    
+    .footer p {
+        margin: 0;
+        font-size: 0.9rem;
+        margin-right:5%;
+    }

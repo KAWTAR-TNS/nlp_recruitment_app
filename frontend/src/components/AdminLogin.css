@@ -1,0 +1,65 @@
+/* Admin Login Card Styling */
+.login-card {
+    border-radius: 8px;
+    padding: 40px 30px;
+    box-sizing: border-box; /* Include padding and border in width */
+    width: 100%;
+    background-color: #b92c2c;
+    max-width: 400px; /* Adjust as needed */
+    margin:  auto; /* Center the card horizontally */
+    position: relative;
+    animation: slide-up 0.6s ease-out; /* Apply animation */
+  }
+  
+  /* Input styling */
+  .login-card input {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  /* Button styling */
+  .login-card button {  width: 150px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #3f1b91;
+    color: rgb(247, 247, 247);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .shit:hover {
+    background-color: rgb(171, 204, 255);
+    color: #0a0a0a;
+  }
+  .shit{
+    width: 380px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #3f1b91;
+    color: rgb(247, 247, 247);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+  }
+  /* Form styling */
+  .login-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Animation styling */
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px); /* Start slightly below */
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

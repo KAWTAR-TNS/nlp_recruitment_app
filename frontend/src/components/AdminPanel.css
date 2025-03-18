@@ -1,0 +1,187 @@
+/*Pop up*/
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* General page layout */
+.admin-panel-page {
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.admin-panel-content {
+  flex-grow: 1; 
+  padding-top: 160px; /* Adjust to be the height of your header */
+  padding-bottom: 50px; 
+  box-sizing: border-box;
+  margin-top: 3rem; 
+  z-index:1000px;
+}
+
+.admin-panel-buttons {
+  position: fixed;
+  top: 150px; /* Position the buttons right below the header */
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 1rem; 
+  z-index: 1000;/* Ensure it's above other content */
+  
+}
+/* Header */
+.admin-panel-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 150px; /* Adjust this based on the actual height of your header */
+  z-index: 1000;
+  width: 100%; /* Optional background */
+  display: flex;
+  justify-content: space-between; /* Space between logo and logout button */
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.admin-panel-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  color: rgb(104, 101, 101);
+  text-align: right;
+}
+.admin-panel-footer p{
+  margin: 0;
+  font-size: 0.9rem;
+  margin-right:5%;
+}
+
+/* Logout button styling */
+.logout-button{
+  margin-right: 8rem; /* Adds some space from the right edge */
+  background-color: #4c2e91;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.action-button  {
+  margin-right: 10rem; /* Adds some space from the right edge */
+  background-color: #4c2e91;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  width : 250px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logout-button:hover{
+  background-color: rgb(171, 204, 255);
+  color: #0a0a0a;
+  font-style: bold;
+}
+.action-button:hover{
+  background-color: rgb(171, 204, 255);
+  color: #0a0a0a;
+}
+
+/* Jobs container */
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+/* Job card styling */
+.job-card {
+  color: rgb(198, 199, 202);
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.job-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Job details section */
+.job-details {
+  margin-top: 1rem;
+}
+
+.job-actions button {
+  margin-right: 0.5rem;
+  width:100px;
+  color:#000000;
+  background-color:#9cb7f1;
+  border:1px solid #f5eeee;
+  border-radius: 100px;
+}
+
+.job-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.job-summary {
+  cursor: pointer;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.job-date {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.job-company {
+  margin-top: 5px;
+  text-decoration: underline;
+  font-weight: bold;
+}

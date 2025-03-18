@@ -1,0 +1,63 @@
+.candidate-login-page {
+    background-color: rgb(213, 230, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .login-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+  }
+  
+  .login-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-card form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-card label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-card input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .login-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .login-card button:hover {
+    background-color: #0067cc;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

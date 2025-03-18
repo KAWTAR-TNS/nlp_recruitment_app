@@ -1,0 +1,129 @@
+/* CVUpload.css */
+.cvupload-page {
+    background-image: url('bg.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cvupload-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150px; /* Adjust this based on the actual height of your header */
+    z-index: 1000;
+    width: 100%; /* Optional background */
+    display: flex;
+    justify-content: space-between; /* Space between logo and logout button */
+    align-items: center;
+    padding: 0 2rem;
+    justify-content: space-between;
+  }
+
+
+  .cvupload-content {
+    padding: 2rem;
+    color:white;
+    border-radius: 8px;
+    max-width: 50%; /* Adjusted to take up more space */
+    margin: 0 left; /* Center content horizontally */
+    text-align: left;
+    margin-left:5%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    margin-top: 300px; /* Ensure there's space for the fixed header */
+}
+.note {color:rgb(189, 186, 186);
+font-size: 12px;margin-left:10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem; /* Space between file upload and buttons */
+}
+
+.file-upload-container {
+    border: 2px solid #ded4f7;
+    border-radius: 20px;
+    margin-top:1rem;
+    padding: 1rem;
+    background-color: rgba(250, 248, 248, 0.25); /* Background color for better visibility */
+    flex: 1;
+    min-width: 300px; /* Minimum width to ensure proper sizing */
+}
+
+.cvupload-content input[type="file"] {
+    width: 100%; /* Full width of the container */
+    padding: 0.5rem;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+.buttons-group {
+    display: flex; /* Use flexbox to align items horizontally */
+    flex-direction: row; /* Align children in a row */
+    gap: 1rem; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 1rem; /* Space above the button group */
+}
+
+.buttons-group button {
+    background-color: #3f1b91;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buttons-group button:hover {
+    background-color: rgb(171, 204, 255);
+    color: #0a0a0a;
+}
+
+.cancel-button {
+    background-color: #ddd;
+}
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
+
+.right-sidebar {
+    position: absolute; /* Absolute positioning to place it exactly */
+    top: 30%; /* Adjust vertical position */
+    right: 10%; /* Stick to the right side */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for visual separation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-sidebar img {
+    max-width: 100px; /* Limit the size of the image */
+    height: auto;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    color: rgb(104, 101, 101);
+    text-align: right;
+    
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    margin-right:5%;
+}

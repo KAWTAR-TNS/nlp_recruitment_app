@@ -1,0 +1,50 @@
+{
+    "location": {
+        "city": "Safi"
+    },
+    "phone": [
+        "+212 647898587"
+    ],
+    "email": "talbimeriem@gmail.com",
+    "links": [
+        "github.com/TLBMERIEM",
+        "linkedin.com/in/m-talbi"
+    ],
+    "schools": [
+        "Facult\u00e9 des Sciences Semlalia, MARRAKECH",
+        "EMSI , MARRAKECH",
+        "ENSA , MARRAKECH",
+        "lyc\u00e9e technique, IMINTANOUTE"
+    ],
+    "languages": [
+        "Anglais",
+        "Fran\u00e7ais",
+        "Arabe"
+    ],
+    "skills": [
+        "PL/SQL",
+        "Unix",
+        "C++",
+        "Software design",
+        "Oracle",
+        "Trello",
+        "MATLAB",
+        "MySQL",
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "MERISE",
+        "Java",
+        "Linux",
+        "UML",
+        "SQLite",
+        "Windows",
+        "Github",
+        "Python",
+        "Jira",
+        "Git",
+        "SQL Server",
+        "SQL"
+    ],
+    "full name": "MERIEM TALBI\n\n"
+}

@@ -1,0 +1,151 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.right-content {
+  width: 50%; /* Adjust width as needed */
+  position: relative; /* Position relative to manage layout */
+  padding-right: 20px; /* Add padding to the right for spacing */
+  top : -60px;
+}
+
+/* Container for the entire page */
+.user-selection-page {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Logo styling */
+.logo {
+  height: 80%;  /* Scale the logo to fit 80% of the header's height */
+  width: auto;
+  margin-left: 10%;
+  margin-top: 3%;
+  display: block;
+}
+
+/* Header styling */
+.user-selection-header {
+  height: 150px;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Footer styling */
+.user-selection-footer {
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 13px;
+  color: gray;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.footer-title {
+  margin-right: 5%;
+}
+
+/* Main content styling */
+.user-selection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative; /* Ensure the welcome-box can position itself inside */
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+}
+.right-image-container {
+  position: absolute;
+  right: 20px;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.right-image {
+  width: 40%; /* Adjust as needed */
+  height: auto;
+  border-radius: 10px; /* Optional: rounded corners */
+}
+/* Welcome box styling */
+.welcome-box {
+  border-radius: 8px;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  position: absolute; /* Fix its position relative to the container */
+  top: 45%; /* Vertically center the box */
+  left: 0; /* Aligns the box to the left side */
+  transform: translateY(-50%); /* Correct vertical alignment */
+  margin-left: 8%; /* Adds space from the left edge */
+  width: 50%; /* Adjust width as needed */
+  text-align: left; /* Align text to the left */
+}
+
+/* Welcome box headings and content */
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Slide from 20px below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End at the normal position */
+  }
+}
+.welcome-box h2 {
+  font-size: 35px;
+  margin: 0 0 40px 0;
+  color: white;
+  animation: slideInFromBottom 1s ease-in-out; 
+}
+
+.welcome-box p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: white;animation: slideInFromBottom 1s ease-in-out; 
+}
+
+
+
+.kiss:hover {
+  background-color: rgb(171, 204, 255);
+  color: #0a0a0a;
+}
+.kiss {
+  width: 390px;
+  height: 35px;
+  font-size: 14px;
+  background-color: #3f1b91;
+  color: rgb(247, 247, 247);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+}
+
+.kiss.disappear {
+  opacity: 0; /* Hide the button by setting opacity to 0 */
+  transform: translateY(10px); /* Slightly move the button down for a smooth effect */
+}

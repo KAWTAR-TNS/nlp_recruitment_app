@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fontsource/poppins": "^5.0.15",
+    "date-fns": "^3.6.0",
+    "react-router-dom": "^6.26.0",
+    "styled-components": "^6.1.12"
+  }
+}
